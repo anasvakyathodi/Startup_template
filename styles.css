@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+#home{
+  height: 100vh;
+  top: 0;
+  background: linear-gradient(to right,#9c27b0,#8ecdff);
+}
+.scrolled {
+  padding: .5rem !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* margin-top: 1rem; */
+  padding: 1.5rem !important;
+  transition: .5s ease;
+}
+
+
+
+nav ul li a {
+  color: #fff !important;
+}
+
+
+#about, #service, #contact {
+  padding: 2rem 0px;
+}
+
+.title {
+  font-size: 10rem;
+  font-weight: 900;
+}
+
+.title span {
+  opacity: 0.2;
+  margin-left: -3rem;
+  transition: .5s ease-in-out;
+}
+.title span:hover {
+  opacity: 1;
+}
+footer {
+  bottom: 0;
+}
+p {
+  text-align: justify;
+}
